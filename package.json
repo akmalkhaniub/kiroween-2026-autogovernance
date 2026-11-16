@@ -1,0 +1,20 @@
+{
+  "name": "kiro-autocovernance",
+  "version": "1.0.0",
+  "description": "Autonomous Spec-Driven Policy Governance & Self-Healing Agent Mesh for Kiroween 2026",
+  "main": "dist/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "..\\ai-genesis-2026\\node_modules\\.bin\\tsc.cmd",
+    "pretest": "..\\ai-genesis-2026\\node_modules\\.bin\\tsc.cmd",
+    "test": "node --test dist/test/*.test.js",
+    "start": "node dist/src/server.js"
+  },
+  "keywords": ["kiro", "mcp", "spec-driven", "autonomous-agents", "hackathon"],
+  "author": "Antigravity Agentic Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^5.9.3"
+  }
+}
